@@ -4,7 +4,7 @@ nl := lib_emulator
 
 # dependencies
 
-nd = https://github.com/ErnestSzczepaniak/lib_emulator.git
+nd += https://github.com/ErnestSzczepaniak/lib_emulator.git
 
 # directory paths
 
