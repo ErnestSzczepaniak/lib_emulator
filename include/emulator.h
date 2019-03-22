@@ -1,6 +1,6 @@
 #ifndef _emulator_h
 #define _emulator_h
-// stara wersja
+// stara szkola
 #include <fcntl.h> 
 #include <sys/mman.h>
 #include <unistd.h>
