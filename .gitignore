@@ -1,0 +1,5 @@
+.vscode
+*.o
+*.d
+*.out
+main.cpp
