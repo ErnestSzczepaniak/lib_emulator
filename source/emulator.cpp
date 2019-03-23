@@ -72,3 +72,10 @@ void Emulator::_response_receive(void * to, int size)
     memcpy(to, _map->response, size);
     _map->respne = 0;
 }
+
+#include "test.h"
+
+TEST_CASE("asd")
+{
+    
+}

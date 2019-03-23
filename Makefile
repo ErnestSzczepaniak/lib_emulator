@@ -52,6 +52,7 @@ init:
 install:
 	-cp -r $(di). ../$(di)
 	-cp -r $(ds). ../$(ds)
+	-cp -r $(db). ../$(db)
 	-rm -rf ../$(nl)/
 
 update:
