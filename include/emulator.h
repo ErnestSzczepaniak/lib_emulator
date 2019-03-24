@@ -13,7 +13,7 @@ void _d(const char * format, Args ... args)
 {
     char buffer[128];
 
-    //snprintf(buffer, 127, format, args ...);
+    snprintf(buffer, 127, format, args ...);
 
     std::cout << buffer << std:: endl;
 }
@@ -132,7 +132,6 @@ private:
 template<typename ...T>
 template<typename U>
 int Emulator_client<T...>::Req_type<U>::id = -1;
-
 
 template<typename ...T>
 Emulator_client<T...>::Emulator_client(const char * name)

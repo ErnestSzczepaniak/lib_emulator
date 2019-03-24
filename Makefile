@@ -4,7 +4,7 @@ nl := lib_emulator
 
 # dependencies
 
-nd += https://github.com/ErnestSzczepaniak/lib_emulator.git
+nd += 
 
 # directory paths
 
@@ -42,8 +42,8 @@ ob := $(patsubst $(ds)%.cpp, $(do)%.o, $(wildcard $(ds)*.cpp))
 all: $(db)$(addsuffix .out, $(nl))
 
 clean:
-	-rm $(db)/.
-	-rm $(do)/.
+	-rm $(db)*
+	-rm $(do)*
 
 init:
 	-mkdir $(db) $(do) $(di) $(ds)
